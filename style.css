@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: larger;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: larger;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: larger;
+}
+
+p {
+    background-color: yellow;
+    font-size: small;
+}
+
+ul {
+    background-color: red;
+    font-size: small;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+    background-size: cover;
+    /* Pour ajuster l'image à la taille de l'élément */
+    background-position: center;
+    /* Pour centrer l'image */
+}
+
+.linkstream {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+a {
+    display: inline-block;
+    /* Pour que le lien puisse avoir des dimensions */
+    padding: 10px 20px;
+    /* Ajuste les dimensions du lien */
+    text-decoration: none;
+    /* Enlève le soulignement par défaut */
+    color: black;
+    /* Couleur du texte par défaut */
+    transition: all 0.3s ease;
+    /* Transition pour une animation douce */
+}
+
+a:hover {
+    background-color: blue;
+    /* Couleur de fond lors du survol */
+    color: white;
+    /* Couleur du texte lors du survol */
+    border-radius: 10px;
+    /* Pour arrondir les coins, en option */
+    width: 100px;
+    /* Largeur du carré lors du survol */
+    height: 100px;
+    /* Hauteur du carré lors du survol */
+    text-align: center;
+    /* Centrer le texte horizontalement */
+    line-height: 100px;
+    /* Centrer le texte verticalement */
+}
