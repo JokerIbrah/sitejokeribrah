@@ -9,6 +9,8 @@
     
 </head>
 <!-- On va mettre le logo animé de Joker IBRAH-->
+<body>
+<?php include 'menu.php'; ?> <!-- Inclusion du menu -->
 <h1>JokerIBRAH</h1>
 <h2>Histoire</h2>
 <p>
@@ -17,3 +19,5 @@
 <footer>
     <p><a href="contact.php">Contact</a> </p>
 </footer>
+</body>
+</html>

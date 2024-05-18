@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
     
 </head>
+<body>
+<?php include 'menu.php'; ?> <!-- Inclusion du menu -->
 <h4>Ou peut on l'écouter?</h4>
             Sur les plateformes de streaming: 
                 <ul>
@@ -31,3 +33,5 @@
 <footer>
     <p><a href="contact.php">Contact</a> </p>
 </footer>
+</body>
+</html>

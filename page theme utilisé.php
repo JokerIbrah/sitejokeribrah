@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
     
 </head>
+<body>
+<?php include 'menu.php'; ?> <!-- Inclusion du menu -->
 <h3>Theme utilisé</h3>
 <p>Les principaux thèmes qu'il utilise:</p>
 <ul>
@@ -19,3 +21,5 @@
 <footer>
     <p><a href="contact.php">Contact</a> </p>
 </footer>
+</body>
+</html>

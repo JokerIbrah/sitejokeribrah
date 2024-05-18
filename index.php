@@ -9,6 +9,7 @@
     
 </head>
 <body>
+<?php include 'menu.php'; ?> <!-- Inclusion du menu -->
     <!-- On va mettre le logo animé de Joker IBRAH-->
 <h1>JokerIBRAH</h1>
 <h2>Histoire</h2>

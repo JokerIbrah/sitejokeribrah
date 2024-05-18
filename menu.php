@@ -1,22 +1,27 @@
 <?php
 // Tableau associatif pour définir les éléments du menu
 $menuItems = [
-    'PAGE HISTOIRE' => 'page histoire.php',
-    'PAGE THEME UTISE' => 'page theme utilisé.php',
+    ' HISTOIRE' => 'page histoire.php',
+    ' THEME UTISE' => 'page theme utilisé.php',
     "OU L'ECOUTE" => "page ou l'écouté.php",
     
 ];
 ?>
 
-<nav>
+<nav class="menuItems">
     <ul>
         <?php foreach ($menuItems as $label => $url): ?>
-            <li><a href="<?php echo $url; ?>"><?php echo $label; ?></a></li>
+            <li><a href="<?php echo htmlspecialchars($url); ?>"><?php echo htmlspecialchars($label); ?></a></li>
         <?php endforeach; ?>
     </ul>
 </nav>
 
 <style>
+ .menuItems {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+
     /* Ajoutez vos styles CSS pour le menu ici */
     nav ul {
         list-style-type: none;
