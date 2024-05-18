@@ -16,7 +16,9 @@
    Originaire d'une ville du grand-est de la France, il a beaucoup voyagé. Empreint de désire de changer durablement la société il s'est engagé. Ces texte sont sa liberté d'expression. Il pratique un genre de punk-rap appelé le rapn'roll, ne suivant pas les règles prédéfini du rap. Il va au dessus de cela.
 </p>
 
-
+<footer>
+    <p><a href="contact.php">Contact</a> </p>
+</footer>
 
 </body>
 
