@@ -1,22 +1,20 @@
 // Sélectionner l'image
 const image = document.getElementById('logo');
 
-// Définir la position initiale et la vitesse de déplacement
-let position = 0;
-const speed = 2;
+// Variables pour contrôler l'animation
+let angle = 0;
+const amplitude = 20;  // Amplitude du flottement
+const frequency = 0.05;  // Fréquence du flottement
 
 // Fonction pour animer l'image
-function animateImage() {
-    position += speed;
-    image.style.left = position + 'px';
+function floatImage() {
+    const y = amplitude * Math.sin(angle);
+    image.style.transform = `translateY(${y}px)`;
+    angle += frequency;
 
-    // Recommence à 0 lorsque l'image sort de l'écran
-    if (position > window.innerWidth) {
-        position = -image.width;
-    }
-
-    requestAnimationFrame(animateImage);
+    requestAnimationFrame(floatImage);
 }
 
 // Démarrer l'animation
-animateImage();
+floatImage();
+

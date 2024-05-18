@@ -87,3 +87,10 @@ a:hover {
     line-height: 100px;
     /* Centrer le texte verticalement */
 }
+
+#logo {
+    position: relative;
+    width: 200px;
+    height: auto;
+    will-change: transform;
+}

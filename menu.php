@@ -2,8 +2,8 @@
 // Tableau associatif pour définir les éléments du menu
 $menuItems = [
     ' HISTOIRE' => 'page histoire.php',
-    ' THEME UTISE' => 'page theme utilisé.php',
-    "OU L'ECOUTE" => "page ou l'écouté.php",
+    ' THEME UTISER' => 'page theme utilisé.php',
+    "OU L'ECOUTER" => "page ou l'écouté.php",
     
 ];
 ?>
@@ -29,17 +29,17 @@ $menuItems = [
     }
     nav ul li {
         display: inline;
-        margin-right: 15px;
+        margin-right: 200px;
     }
     nav ul li a {
         text-decoration: none;
         color: black;
-        padding: 10px 20px;
+        padding: 50px 50px;
         transition: background-color 0.3s ease;
     }
     nav ul li a:hover {
         background-color: blue;
         color: white;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 </style>
