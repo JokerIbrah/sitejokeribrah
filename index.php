@@ -15,14 +15,6 @@
 <p>
    Originaire d'une ville du grand-est de la France, il a beaucoup voyagé. Empreint de désire de changer durablement la société il s'est engagé. Ces texte sont sa liberté d'expression. Il pratique un genre de punk-rap appelé le rapn'roll, ne suivant pas les règles prédéfini du rap. Il va au dessus de cela.
 </p>
-<h3>Theme utilisé</h3>
-<p>Les principaux thèmes qu'il utilise:</p>
-<ul>
-    <li>anti- capitalisme</li>
-    <li>haine envers la société</li>
-    <li>sa vie personnelle</li>
-    <li>ego-trip</li>
-</ul>
 
 <h4>Ou peut on l'écouter?</h4>
             Sur les plateformes de streaming: 
