@@ -18,7 +18,7 @@
 <h3>Theme utilisé</h3>
 <p>Les principaux thèmes qu'il utilise:</p>
 <ul>
-    <li>anti- capitalisme</li>
+    <li>anti-capitalisme</li>
     <li>haine envers la société</li>
     <li>sa vie personnelle</li>
     <li>ego-trip</li>

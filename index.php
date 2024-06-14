@@ -21,7 +21,8 @@
 </p>
 
 <footer>
-    <p><a href="contact.php">Contact</a> </p>
+    <p>
+        <a href="contact.php">Contact</a> </p>
 </footer>
 
 </body>

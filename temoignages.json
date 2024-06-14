@@ -1,0 +1,14 @@
+[
+    {
+        "nom": "Jean Dupont",
+        "email": "jean.dupont@example.com",
+        "message": "Excellent service!",
+        "date": "2024-05-19 14:30:00"
+    },
+    {
+        "nom": "Marie Curie",
+        "email": "marie.curie@example.com",
+        "message": "Très bonne expérience.",
+        "date": "2024-05-18 10:00:00"
+    }
+]
